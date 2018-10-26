@@ -1,0 +1,355 @@
+body {
+    margin: 0;
+    
+
+}
+
+.netflix{
+    width: 225px;
+}
+.navegavel{
+    display: flex;
+}
+.img{
+    display: initial;
+}
+.banner{
+        background-image: url(imagens/maniac.jpg);
+        background-size: cover;
+        color: white;
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        flex-direction: column;
+        background-repeat: no-repeat;
+        }
+.botao{
+    color:white;
+    background-color: red;
+    border:none;
+    height: 125%;
+    width: 125%;
+}
+.intensm{
+    display: flex;
+    justify-content: space-between;
+}
+
+nav {
+    justify-content: space-between;
+}
+
+.banner li{
+    list-style: none;
+    display: inline;
+    margin-right: 10%;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+}
+
+#banner1 {
+    display: block;
+    margin: 5%;
+}
+
+.banner > .mao {
+        align-self: flex-end;
+        max-width: 300px;
+        display: none;
+    }
+
+#banner1 >h1 {
+    font-family: 'Pacifico', cursive;
+    font-size: 35px;
+    color: white;
+}
+
+#banner1 >p {
+    font-family: 'Roboto', sans-serif;
+    font-size: 23px;
+    color: white;
+    max-width: 80%;
+}
+
+span {
+    background-color: rgb(83, 198, 94);
+    width: 10px;
+    height: 10px;
+    border-radius: 100%;
+    margin-top: 35px;
+    margin-left: 8px;
+}
+
+.redondofundo {
+    display: flex;
+    position: relative;
+    background-color: black;
+    filter: opacity(50%);
+    width: 50px;
+    height: 50px;
+    margin: 10px;
+    opacity: 50%;
+    border-radius: 100%;
+}
+
+.redondofundo:hover {
+    display: flex;
+    position: relative;
+    background-color: rgb(83, 198, 94);
+    filter: none;
+    width: 50px;
+    height: 50px;
+    margin: 10px;
+    opacity: 50%;
+    border-radius: 100%; 
+}
+
+.icones {
+    display: flex;
+    flex-wrap: wrap;
+    margin: auto;
+}
+
+.icon {
+    filter: opacity(100%);
+    margin: 25%;
+    }
+
+.bannertopo {
+    max-width: 50%;
+    border: 0;
+    margin: 0;
+    justify-content: flex-end;
+    position: relative;
+}
+
+.itens {
+    position: relative;
+    display: flex;
+    flex-wrap: none;
+    margin: 40px auto;
+    max-width: 80%;
+    text-align: center;
+}
+
+.imagensicones > img {
+    position: relative;
+    margin-top: 15px;
+    max-width: 80%;
+    text-align: center;
+}
+
+.imagensicones {
+    align-items: center;
+    flex-wrap: wrap;
+    position: relative;
+    background-color: grey;
+    width: 80px;
+    height: 80px;
+    margin: 30px auto 30px;
+    border-radius: 100%;
+}
+
+.itens > div > p {
+    font-size: 15px;
+    color: gray;
+    font-family: 'Roboto', sans-serif;
+}
+.itens > div > h2 {
+    font-size: 19px;
+    font-family: 'Roboto', sans-serif;
+}
+
+h1 {
+    font-family: 'Pacifico', cursive;
+    font-size: 55px;
+    position: relative;
+    display: flex;
+    margin-bottom: 30px;
+}
+
+p {
+    font-family: 'Roboto', sans-serif;
+    font-size: 22px;
+}
+
+.notificacao {
+    justify-content:space-between ;
+    background-color:lightgray;
+    position: relative;
+    display: flex;
+    margin: auto;
+}
+.notificacao > div > p {
+    font-size: 15px;
+    color: gray;
+    font-family: 'Roboto', sans-serif;
+    flex-wrap: wrap;
+}
+.notificacao > div > h2 {
+    font-size: 19px;
+    font-family: 'Roboto', sans-serif;
+}
+
+#noti {
+    max-width: 50%;
+    position: relative;
+    height: 250px;
+    margin: 50px auto;
+}
+
+.notificacao > .button {
+    color: rgb(83, 198, 94);
+}
+
+#note{
+    position: relative;
+    margin: 90px auto;
+}
+.cancel{
+    width: 20%;
+}
+
+
+.email {
+    background-color: white;
+    max-width: 38%;
+    border-radius: 8px;
+    height: 30px;
+    display: flex;
+}
+.email>input {
+    border: 0;
+    margin: 7px 10px;
+    background-color: none;
+    text-decoration-color:lightgray;
+}
+
+.email>div {
+    background-color:  rgb(83, 198, 94);
+    width: 80px;
+    height: 30px;
+    position: relative;
+    border-radius: 0 8px 8px 0;
+    display: inline;
+    margin-right: 0;
+}
+
+
+.email>div>h2 {
+    color: white;
+    position: relative;
+    margin: 7px auto;
+    font-family: roboto;
+    font-size: 13px;
+    display: flex;
+    justify-content: center;
+}
+
+#filtro {
+    position: relative;
+    max-width: 90%;
+    display: flex;
+    margin: auto;
+    justify-content: center;
+}
+
+.depoimentos > h2 {
+    text-align: center;
+    font-family: roboto;
+}
+
+.depoimentos > p {
+    text-align: center;
+    max-width: 60%;
+    font-size: 16px;
+    margin: 30px auto;
+    color: gray;
+    font-family: roboto;
+}
+
+.depoimentos > h3 {
+    text-align: center;
+    font-family: roboto;
+}
+
+.rosto {
+    padding: 2px;
+    width: 50px;
+    height: 50px;
+}
+
+
+footer {
+    display: flex;
+    height: 80px;
+   justify-content: space-between;
+    list-style: none;
+    padding-top: 10%;
+}
+.new{
+    margin-left: 10%;
+    margin-right: 10%;
+}
+footer > h2 {
+    color: gray;
+    margin: 30px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 15px;
+}
+.new{
+    display: flex;
+}
+.xx{
+    height: 10%;
+    width: 10%;
+}
+.itens > div {
+    margin: auto 5%;
+}
+
+@media(min-width: 768px){
+    .banner {
+        height: 380px;
+        padding: 0 100px;
+    }
+
+    .banner > .mao{
+        display: block;
+    }
+
+    
+    .itens {
+        position: relative;
+        display: flex;
+        margin: 40px auto;
+        max-width: 80%;
+        text-align: center;
+    }
+    
+@media(max-width: 768px){ 
+
+    .itens {
+        position: relative;
+        display: flex;
+        flex-wrap: wrap;
+        margin: 40px auto;
+        max-width: 80%;
+        text-align: center;
+    }
+
+    .banner {
+        height: 380px;
+        padding: 0 200px;
+    }
+
+    .banner > .mao{
+        width: 350px;
+        display: block;
+    }
+
+}
+
